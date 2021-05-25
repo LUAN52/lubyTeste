@@ -1,0 +1,45 @@
+.followers
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+
+.imgFollower
+{
+    margin-left: 100px;
+}
+
+.nameFollower
+{
+    margin-left: 100px;
+}
+
+
+
+.followerLink
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+
+.contFollower
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,173 @@
+
+.title
+{
+    background-color: rgba(0, 0, 0, 0.863);
+    display: flex;
+    justify-content: space-between;
+    padding-top:20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 120px;
+      
+}
+
+.out
+{
+    color: white;
+    margin-right: 10px;
+    display: flex;
+    width: 80px;
+    justify-content: space-between;
+    
+}
+
+.imgOut
+{
+    
+    margin-right: 10px;
+   
+}
+
+.color
+{
+    color: white;
+    
+}
+
+.body
+{
+    background-color: rgba(0, 0, 0, 0.788);
+    height: 20rem;
+    display: flex;
+    
+      
+}
+
+.avatar
+{
+    position: absolute;
+    height: 10rem;
+    top: 22rem;
+    width: 10rem;
+    color: white;
+    left: 610px;
+    display: flex; 
+   
+}
+
+.imgAvatar
+{
+    border-radius:80px;
+    border: 5px solid white;
+    
+}
+
+.imgAvatarBio
+{
+   
+    margin-left: 20px;
+}
+
+
+.content
+{
+    height: 8rem;    
+    margin-top: 30px;
+}
+
+
+.contNumber
+{
+    background-color: rgba(0, 0, 0, 0.699);
+    height: 10rem;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.number
+{
+    width: 65%;
+   
+    display: flex;
+    justify-content: space-between;
+    min-height: 4rem;
+}
+
+.seg
+{
+    width: 100px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.bodyTop
+{
+    
+    flex-direction: column;
+    
+}
+
+
+
+.bioInfo
+{
+   
+    width: 350px;
+    margin-left: 15px;
+
+}
+
+.bioInfo > p{
+    word-wrap: break-word;
+}
+
+
+
+.tag-bottom
+{
+    margin-top: 80px;
+}
+
+
+.bodyBottom
+{
+    height: 20rem;
+    flex-direction: column;
+     
+}
+
+
+.bioContainer
+{
+
+    width: auto;
+    display: flex;
+    margin-top: 40px;
+   
+    
+}
+
+
+
+.bioContainerTop
+{
+    margin-top: 100px;
+}
+
+.container
+{
+    margin-top: 80px;
+}
+
+
+
+
+
+
+

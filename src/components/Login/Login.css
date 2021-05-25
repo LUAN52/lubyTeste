@@ -1,0 +1,54 @@
+
+.cont
+{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 35rem;
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.774);
+    margin-top: 100px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+
+
+.form
+{
+    width: 600px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+   
+}
+
+.button
+{
+    background-color: #f9b622;
+    width: 220px;
+    border-radius: 10px;
+    margin-top: 33px;
+    font-size: larger;
+    font-weight: bold;
+    padding: 5px;
+      
+}
+
+.imgButton
+{
+    margin-left: 15px;
+}
+
+.error
+{
+    color: red;
+    position: absolute;
+    margin-left: 420px;
+    margin-top: 10px;
+    
+}
+

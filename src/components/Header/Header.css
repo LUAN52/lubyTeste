@@ -1,0 +1,68 @@
+.header 
+{
+    display: flex;
+    margin-left: 10px;
+    align-items: flex-start; 
+}
+
+
+.text
+{
+    font-size: 68px;
+    height: auto;
+    margin-bottom: 0;
+   
+}
+
+
+.innerHeader
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5px;
+    color: white;
+    
+}
+
+
+.nav
+{
+    height: 50px;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+}
+
+
+.innerNav
+{
+    width: 30%;
+    
+}
+
+ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li
+{
+    margin-top:10px ;
+    text-decoration: none;
+}
+
+a:link 
+{ 
+ text-decoration:none; 
+}
+
+.headerImg
+{
+    margin-top: 10px;
+}
+
+
+
