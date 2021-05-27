@@ -6,14 +6,12 @@ import api from '../../api';
 
 const Follower = () => {
     const { setFollowerProfile,following_url} = useData();
-    const [following, setFollowing] = useState([])
+    const [following, setFollowing] = useState([]);
     const [loading, setLoading] = useState(false);
 
-    ;
+    
     const history = useHistory();
   
-   
-
     useEffect(() => {
         const getFollowers = async () => {
             setLoading(true);
@@ -25,7 +23,6 @@ const Follower = () => {
             setLoading(false);
 
             if (data) {
-                console.log(data);
                 setFollowing(data);
             }
         }

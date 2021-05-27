@@ -25,33 +25,33 @@ const Header = () => {
         </header>
         {location.pathname!=="/"?
         <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav">
-            <li className="nav-item active">
-                <Link to="/inicio">
-                    <p className="nav-link">Início </p>
-              </Link>
-            </li>
-            <li className="nav-item">
-                <Link to="/repositorio">
-                    <p className="nav-link" >Repositorios</p>
-              </Link>
-            </li>
-            <li className="nav-item">
-                <Link to="/seguidores">
-                    <p className="nav-link" >Seguidores</p>
-              </Link>
-            </li>
-            <li className="nav-item">
-                <Link to="/seguindo">
-                    <p className="nav-link" >Seguindo</p>
-              </Link>
-            </li>
-          </ul>
-        </div>
+          <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
+              <li className="nav-item active">
+                  <Link to="/inicio">
+                      <p className="nav-link">Início </p>
+                </Link>
+              </li>
+              <li className="nav-item">
+                  <Link to="/repositorio">
+                      <p className="nav-link" >Repositorios</p>
+                </Link>
+              </li>
+              <li className="nav-item">
+                  <Link to="/seguidores">
+                      <p className="nav-link" >Seguidores</p>
+                </Link>
+              </li>
+              <li className="nav-item">
+                  <Link to="/seguindo">
+                      <p className="nav-link" >Seguindo</p>
+                </Link>
+              </li>
+            </ul>
+          </div>
       </nav>:null}
       </>
     )

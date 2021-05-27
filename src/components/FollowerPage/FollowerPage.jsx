@@ -37,7 +37,6 @@ const FollowerPage = () => {
             const getFollowerProfile = async () => {
             setloading(true);
             const {data} = await api.getAny(followerProfile);
-            console.log(data)
             setloading(false);
 
             if (data) {

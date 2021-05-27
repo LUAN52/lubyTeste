@@ -7,23 +7,21 @@ import './Follower.css';
 
 const Follower = () => {
     const { followers_url,setFollowerProfile} = useData();
-    const [follower, setFollower] = useState([])
+    const [follower, setFollower] = useState([]);
     const [loading, setLoading] = useState(false);
 
-    ;
+    
     const history = useHistory();
   
     useEffect(() => {
         const getFollowers = async () => {
             setLoading(true);
             
-           
             
             let {data} = await api.getAny(followers_url)
             setLoading(false);
 
             if (data) {
-                console.log(data);
                 setFollower(data);
             }
         }

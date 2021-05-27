@@ -4,7 +4,6 @@ import { useData } from '../../context/context';
 import { Link } from 'react-router-dom';
 
 
-
 const Bio = () => {
 
     const { avatar_url, name,
@@ -12,7 +11,6 @@ const Bio = () => {
         public_repos,
         login, location,
         email, bio } = useData();
-
 
     return (
 

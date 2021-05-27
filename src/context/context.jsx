@@ -49,7 +49,7 @@ export default function Provider({children})
 export function useData()
 {
     const context = useContext(Context)
-    const {count,setCount,followers_url,setFollowers_url,
+    const {followers_url,setFollowers_url,
     avatar_url,setAvatar_url,
     name,setName,email,setEmail,
     following,setFollowing,
@@ -67,7 +67,7 @@ export function useData()
     following_url,setFollowing_url} = context;
 
 
-    return {count,setCount,followers_url,
+    return {followers_url,
     setFollowers_url,avatar_url,
     setAvatar_url,name,setName,
     following,setFollowing,

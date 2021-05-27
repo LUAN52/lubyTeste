@@ -7,13 +7,6 @@ const getUser=(user)=>
 }
 
 
-
-
-const getFollowing = (user)=>
-{
-    return axios.get(`https://api.github.com/users/${user}/following`)
-}
-
 const getAny = (url)=>
 {
     return axios.get(url);
@@ -24,8 +17,6 @@ const getAny = (url)=>
 let methods =
 {
     getUser: getUser,
-
-    getFollowing: getFollowing,
 
     getAny:getAny
 }

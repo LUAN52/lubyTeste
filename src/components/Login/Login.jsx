@@ -88,7 +88,6 @@ const Login = () => {
                 }
                 else{
                 
-               
                 getData(input)
                 .then(resp=>{
                     history.push('/inicio');
@@ -98,25 +97,15 @@ const Login = () => {
                 })
             }
            
-                    
-
-               
-               
-
-                   
-                        
-                      
-                
+                           
 
             }}
                 className="button">Entrar
                  <img className="imgButton" src={process.env.PUBLIC_URL + '/seta.png'} width="20" height="20" alt="seta"
                 /></button>
 
-
         </div>
-
-        
+   
 
     </div>
 
